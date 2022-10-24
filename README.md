@@ -14,13 +14,13 @@ forge install
 ### Test
 
 ```
-forge test -vv
+forge test -vv --gas-report
 ```
 
 ### Deploy
 
 ```
-forge create src/AWGrimoireOfOptimism.sol:AWGrimoireOfOptimism --rpc-url <rpc_url> --private-key <private_key> --legacy
+forge create src/AWGrimoireOfOptimism.sol:AWGrimoireOfOptimism --rpc-url <rpc_url> --private-key <private_key> --legacy --gas-limit 10000000
 ```
 
 ### Verify
