@@ -1,5 +1,5 @@
 {
-  "name": "alpha-pass-contract",
+  "name": "grimoire-of-optimism-contract",
   "description": "",
   "directories": {
     "lib": "lib",
@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/atlantis-world-core/alpha-pass-contract.git"
+    "url": "git+https://github.com/atlantis-world-core/grimoire-of-optimism-contract.git"
   },
   "scripts": {
     "test": "hardhat test",
@@ -19,7 +19,6 @@
     "@nomicfoundation/hardhat-toolbox": "^2.0.0",
     "dotenv": "^16.0.3",
     "hardhat": "^2.11.2",
-    "hardhat-preprocessor": "^0.1.5",
-    "merkletreejs": "^0.2.32"
+    "hardhat-preprocessor": "^0.1.5"
   }
 }
